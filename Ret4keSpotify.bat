@@ -1,7 +1,7 @@
 param (
   [Parameter()]
   [switch]
-  $UninstallSpotifyStoreEdition = (Read-Host -Prompt 'Uninstall Spotify Microsoft Store if it exists (Y/N) // Made by ret4ke for catherapy') -eq 'y',
+  $UninstallSpotifyStoreEdition = (Read-Host -Prompt 'Uninstall Spotify Microsoft Store if it exists (Y/N) // Made by ret4ke') -eq 'y',
   [Parameter()]
   [switch]
   $UpdateSpotify
